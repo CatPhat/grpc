@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <AssemblyTitle>GreeterClient</AssemblyTitle>
-    <TargetFrameworks>netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
     <DebugType>portable</DebugType>
     <AssemblyName>GreeterClient</AssemblyName>
     <OutputType>Exe</OutputType>
     <PackageId>GreeterClient</PackageId>
-    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">1.0.4</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">2.0.0</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <ItemGroup>
